@@ -1,0 +1,90 @@
+
+
+.elementos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputs{
+    border-radius: 10px;
+    padding: 10px;
+    width: 50vh;
+    background-color: #0d3b66;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    color: white;
+    font-size: medium;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.inputs::placeholder{
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.568);
+    border: none;
+}
+.inputs:focus{
+   background-color: #1d67a8;
+   
+   border: none;
+
+}
+.conteiner{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    margin-top: 10vh;
+    
+}
+.txt{
+    text-align: center;
+    color:#0d2c48 ;
+  
+    
+}
+.submit{
+    border-radius: 10px;
+    background-color: #0d2c48;
+    color: rgba(255, 255, 255, 0.801);
+    padding: 10px;
+    width: 100px;
+    margin: 0 auto;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+.submit:hover{
+    background-color: #1d67a8;
+}
+#link3{
+    position: relative;
+    bottom: 40px;
+    font-size: small;
+    padding: 5px;
+    width: 15vh;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    border-radius: 10px;
+}
+#link3:hover{
+   color: orange;
+   border-radius: 10px;
+}
+#link4{
+    position: relative;
+    bottom: 40px;
+    left: 25vh;
+    font-size: small;
+    padding: 5px;
+    width: 15vh;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    border-radius: 10px;
+}
+#link4:hover{
+   color: orange;
+   border-radius: 10px;
+}
+

@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Botão Início */
+.btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  color: #1d4ed8;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+  background-color: #e0e7ff;
+  transform: scale(1.05);
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(13, 59, 102, 0.1);
+  text-decoration: none;
+  animation: fadeInUp 0.5s ease forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(13, 59, 102, 0.2);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #1d4ed8;
+}
+
+/* Animação suave */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

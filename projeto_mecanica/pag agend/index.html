@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aba de Agendamento</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styless.css">
+</head>
+
+<body>
+    <div class="cbc">
+        <a href="/pag inicial/index.html"><img class="logo" src="/imagens/logo3.jpg" alt="Logo do site"></a>
+        <div class="links">
+            <a class="link1" href="/pag inicial/index.html">Inicio</a>
+            <a class="link1" href="/pag contato/index.html">Contato</a>
+            <a class="link1" href="/pag serv/index.html">Serviços</a>
+            <a class="link1" href="/pag sobre/index.html">Sobre nós</a>
+            <a class="link1" href="/pag login/index.html">Login/Cadastro</a>
+        </div>
+    </div>
+    <div class="conteiner">
+        <div class="pag1">
+            <h1 id="txt1">Agendamento</h1>
+            <div class="main1">
+
+
+
+
+
+                <h1>Selecione o serviço que deseja</h1>
+                <input type="text" list="servico" placeholder="Digite o serviço que deseja">
+                <datalist id="servico">
+                    <option value="Manutenção preventiva">
+                    <option value="Diagnostico e reparos">
+                    <option value="Freios">
+                    <option value="Suspenção e direção">
+                    <option value="Troca de Pneus e rodas">
+                    <option value="Serviços eletricos">
+                    <option value="Serviços personalisados">
+                </datalist>
+                <h1>Selecione a marca do seu veiculo</h1>
+                <input type="text" list="modelos" placeholder="Digite a marca do carro">
+                <datalist id="modelos">
+                    <option value="Fiat">
+                    <option value="Honda">
+                    <option value="Toyota">
+                    <option value="Volkswagen">
+                </datalist>
+                <h1>Selecione a data para fazermos o servico</h1>
+                <input type="date">
+                <br>
+                <input type="submit" class="submit" value="Agendar">
+
+
+
+            </div>
+        </div>
+        <div class="pag2">
+            <h1>Preencha com os seus dados abaixo</h1>
+            <div class="main2">
+                <input class="inp1" type="text" placeholder="Nome"required  >
+                <input class="inp1" type="text" placeholder="Sobrenome"required>
+                <input class="inp1" type="text" placeholder="Forma de pagamento"required >
+                <input class="inp1" type="number" placeholder="CPF"required>
+                <input class="inp1" type="tel" placeholder="Celular"required>
+              <input type="submit" class="submit1" value="Agendar">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <h3>© 2025 Katchau Auto Center. Todos os direitos reservados. </h3>
+    </footer>
+</body>
+
+</html>
